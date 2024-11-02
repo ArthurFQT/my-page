@@ -1,11 +1,21 @@
-import React from 'react';
-import GlobalStyles from './styles/globalStyles';
+import React from "react";
+import GlobalStyles from "./styles/globalStyles";
+import Header from "./components/Header";
+import Inicio from "./components/Inicio";
+import Sobre from "./components/Sobre";
+import Projetos from "./components/projects";
+import Contato from "./components/contact";
 
 function App() {
   return (
-    <center>
-      <h1>ARTHUR F. </h1>
-    </center>
+    <>
+      <GlobalStyles />
+        <Header />
+        <Inicio />
+        <Sobre />
+        <Projetos />
+        <Contato />
+    </>
   );
 }
 

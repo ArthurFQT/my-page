@@ -1,4 +1,3 @@
-import "react-toastify/dist/ReactToastify.css";
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
@@ -183,7 +182,9 @@ const GlobalStyles = createGlobalStyle`
   }
 
   html, body {
-    font-family: 'Public Sans', sans-serif;
+    font-family: sans-serif;
+    background: linear-gradient(to top, #041015,#040404);
+    color: #fff;
   }
 
   html, body {
