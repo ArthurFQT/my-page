@@ -8,6 +8,7 @@ const Container = styled.header`
   justify-content: center;
   align-items: center;
   position: fixed;
+  z-index: 99999;
 `;
 
 const Navs = styled.nav`
