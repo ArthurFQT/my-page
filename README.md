@@ -1,46 +1,37 @@
-# Getting Started with Create React App
+# Portfólio - Arthur Filipe
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Bem-vindo ao meu portfólio! Este projeto foi desenvolvido para exibir meus trabalhos, experiências e habilidades como desenvolvedor frontend, utilizando **React** e **TypeScript**.
 
-## Available Scripts
+## 📖 Sobre o Projeto
 
-In the project directory, you can run:
+Este portfólio serve como uma vitrine para meus projetos e experiências, além de fornecer informações sobre minha jornada no desenvolvimento web. O design e a estrutura são focados em apresentar meu trabalho de maneira clara e organizada, com uma interface intuitiva.
 
-### `yarn start`
+## 🌐 Funcionalidades
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Página Sobre**: Uma introdução sobre mim, minha formação e meus objetivos como desenvolvedor.
+- **Projetos**: Exibição dos projetos que já desenvolvi, com detalhes técnicos e links para o código-fonte e demonstrações.
+- **Contato**: Um formulário para que você possa entrar em contato diretamente comigo.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🛠️ Tecnologias Utilizadas
 
-### `yarn test`
+- **React** com **TypeScript**: Para criação de componentes reutilizáveis e interface dinâmica.
+- **Styled Components**: Para estilização dos componentes, permitindo um design modular e reutilizável.
+- **Yarn**: Gerenciador de pacotes.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🌍 Acesse o Portfólio Online
 
-### `yarn build`
+Você pode acessar meu portfólio diretamente pelo link:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [Portfólio Online - Arthur Filipe](https://seu-portfolio.com)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como Executar o Projeto Localmente
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para visualizar o projeto ou baixá-lo, acesse o repositório no GitHub:
 
-### `yarn eject`
+- [Portfólio - Arthur Filipe no GitHub](https://github.com/seu-usuario/seu-repositorio)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Executando Localmente
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Navegue até o diretório do projeto após o download:
+   ```bash
+   cd seu-repositorio
