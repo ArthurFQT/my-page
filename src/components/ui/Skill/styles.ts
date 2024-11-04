@@ -7,24 +7,22 @@ const Container = styled.div`
   border: 2px solid black;
   border-radius: 8px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  padding: 0 2%;
 `;
 
 const Progress = styled.div`
- background: rebeccapurple;
-  width: 70%;
+  background: white;
+  width: 80%;
   height: 8px;
   border-radius: 10px;
-
-  .skill-progress-fill {
-  background: yellow;
-  height: 100%;
-  border-radius: inherit;
-}
 `;
 
-export {
-    Container,
-    Progress,
-}
+const SkillProgressFill = styled.div`
+  background: black;
+  height: 100%;
+  border-radius: inherit;
+`;
+
+export { Container, Progress, SkillProgressFill };

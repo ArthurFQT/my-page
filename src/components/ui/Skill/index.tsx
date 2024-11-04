@@ -1,15 +1,21 @@
 import React from "react";
-import { Container, Progress } from "./styles";
+import { Container, Progress, SkillProgressFill } from "./styles";
+import { IconType } from "react-icons"; // Importa a tipagem de ícone
 
-const SkillComponent: React.FC = () => {
+interface ISkillProgress {
+    porcent: string;
+    Icon?: IconType;
+}
+
+const SkillComponent: React.FC<ISkillProgress> = ({ porcent, Icon }) => {
   return (
-    <>
-      <Container>
-        <Progress>
-          <div className="skill-progress-fill" style={{ width: "80%" }}></div>
-        </Progress>
-      </Container>
-    </>
+    <Container>
+      <Progress>
+        <SkillProgressFill style={{ width: porcent }} /> {/* Usa a prop porcent para a largura */}
+      </Progress>
+      <p>{porcent}</p>
+      {Icon && <Icon size={24} />}
+    </Container>
   );
 };
 
