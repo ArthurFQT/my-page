@@ -34,4 +34,4 @@ Para visualizar o projeto ou baixá-lo, acesse o repositório no GitHub:
 
 1. Navegue até o diretório do projeto após o download:
    ```bash
-   cd seu-repositorio
+   cd my-page
