@@ -8,6 +8,7 @@ import { RiCss3Fill } from "react-icons/ri";
 import { BiLogoTypescript } from "react-icons/bi";
 import { SiStyledcomponents } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
+import Informaçao from "../ui/Info";
 
 const Sobre: React.FC = () => {
   return (
@@ -39,7 +40,7 @@ const Sobre: React.FC = () => {
           <h2>Informaçoes</h2>
           <Spacer height="10px" />
           <ContentBox>
-            <h3>ahahaha</h3>
+            <Informaçao />
           </ContentBox>
         </Box>
       </Container>
